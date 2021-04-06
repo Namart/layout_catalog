@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+  height: 60px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo-link {
@@ -13,4 +14,12 @@
       height: 40px;
     }
   }
+
+  &__burger-menu {
+    display: none;
+  }
+}
+
+.page__header {
+  margin-bottom: 50px;
 }

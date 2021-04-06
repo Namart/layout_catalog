@@ -1,0 +1,17 @@
+@media (max-width: 1023px) {
+  .main__container {
+    grid-template-columns: repeat(3, $card-width);
+  }
+}
+
+@media (max-width: 770px) {
+  .nav {
+    display: none;
+  }
+  .header__burger-menu {
+    display: block;
+  }
+  .main__container {
+    grid-template-columns: repeat(2, $card-width);
+  }
+}
